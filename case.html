@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Case-02</title>
+    <title>Case</title>
     <link rel="stylesheet" href="assets/lib/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--    Style CSS-->
     <style>
         * {
             margin: 0;
@@ -104,10 +107,39 @@
         body{
             overflow-x: hidden;
         }
+
+        /*Media query*/
+
+        /*Mobile size - small=320px*/
+        @media all and (max-width: 320px){
+            .sidebar {
+                display: none;
+            }
+        }
+
+        /*Mobile size - medium=375px*/
+        @media all and (max-width: 375px){
+            .sidebar {
+                display: none;
+            }
+        }
+
+        /*Mobile size - large=425px*/
+        @media all and (max-width: 425px){
+            .sidebar {
+                display: none;
+            }
+        }
+
     </style>
+
+
+
 </head>
 <body>
+<!--HTML Part-->
 
+<!--Header Section-->
 <header>
     <div> <img src="assets/image/img.png" alt="IUSE Logo" width="100px"> </div>
     <nav class="nav">
@@ -119,6 +151,7 @@
         </ul>
     </nav>
 </header>
+<!--Home Section-->
 <div class="container">
     <div class="sidebar">
         <aside>
