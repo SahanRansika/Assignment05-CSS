@@ -164,9 +164,28 @@
 
 
         /*Mobile size - large=425px*/
-        @media all and (max-width: 425px){
+        @media all and (min-width: 425px){
             .sidebar {
                 display: none;
+            }
+            .nav ul li {
+                margin: 0;
+            }
+            .ijse img{
+                width: 100%;
+                height: 100%;
+            }
+            .nav {
+                position: absolute;
+                right: 90px;
+                top: 70px;
+            }
+            .video{
+                width: 100%;
+                height: 100%;
+            }
+            .video-list{
+                display: grid;
             }
         }
 
